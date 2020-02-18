@@ -21,7 +21,7 @@ public class BuyerProductController {
     @GetMapping("/list")
     public ResultVo list(){
         ResultVo resultVo = new ResultVo();
-        log.info("******************************111111");
+        log.info("******************************11121111");
         if(true){
             throw new SellException(ProductStatusEnum.down);
         }
