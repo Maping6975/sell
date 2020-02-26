@@ -13,3 +13,6 @@ spring:
 server:
   servlet:
     context-path: /sell
+
+wechat:
+  mpAppId: 123456
